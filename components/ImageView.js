@@ -27,14 +27,14 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     alignItems: "center",
     width: "95%",
-    height: "75%",
-    marginBottom: "3.5em",
+    height: "65vh",
+    marginBottom: "0.5em",
     marginTop: 10,
   },
   scrollView: {
     borderRadius: 10,
     width: "100%",
-    height: "80vh",
+    // height: "100vh",
   },
   image: {
     width: "100%",

@@ -1,10 +1,10 @@
 import React from "react";
 import { useContext } from "react";
-import TestContext from "../testContext";
+import MenuContext from "../MenuContext";
 import { Text } from "react-native";
 
 const TabItem = ({ fetchAnimal }) => {
-  const menuItems = useContext(TestContext);
+  const menuItems = useContext(MenuContext);
 
   return (
     <>
